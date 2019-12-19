@@ -1,0 +1,1 @@
+This algorithm is used to apply K-means clustering on images of numbers 0-9. The count of maximum number of images belonging to the same cluster for each number, is then plotted.
