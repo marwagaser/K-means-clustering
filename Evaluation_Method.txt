@@ -1,0 +1,3 @@
+Evaluation Method:
+
+The evaluation method used to determine the best output of the 30 iterations was the "Within Cluster Sum of Squares". In this method the Euclidean distance between each point in the cluster and its mean is calculated. Then those distances of all points within the cluster are added together and divided by their number (get the mean). The same is done for every cluster. Finally, those means are summed up and divided by the number of clusters (average of averages). The same procedure is followed in all iterations. The iteration which produces the smallest value is then, taken into consideration.
